@@ -1,23 +1,23 @@
-# IoTSensorAutomation
-## O projeto realiza:
-- Coleta de dados de sensores
-- Acionamento de dispositivos automaticamente
-- Comunicação via protocolos como MQTT ou controle local
+# RIR Network Trace & Latency Analysis
 
-## Tecnologias Usadas
-- Microcontrolador: ESP32 / Arduino
-- Linguagem: C++ (firmware) e Python (automação local)
-- Comunicação: MQTT (opcional), comunicação serial ou Wi-Fi
+This project contains a collection of simulated network diagnostic tests (ping and traceroute) conducted against the websites of Regional Internet Registries (RIRs), along with ISP analysis using `whois` data.
 
-## Como Rodar
-### 1. Firmware
-Carregue o código `firmware/main.ino` no seu ESP32 ou Arduino usando o Arduino IDE.
+## Contents
 
-### 2. Scripts Python
-Instale as dependências:
-```bash
-pip install -r requirements.txt
-```
-Rode o script desejado:
-```bash
-python automation/device_controller.py
+- `network_tests/`
+  - `ping_results.txt`: Simulated latency results from pinging the main RIRs.
+  - `tracert_*.txt`: Traceroute outputs showing the hops toward various RIR domains and Cisco.
+  - `isp_analysis.txt`: Analysis of ISP responsibility and routing based on whois information.
+
+## Targeted RIRs
+
+- **RIPE** (Europe) – www.ripe.net  
+- **AFRINIC** (Africa) – www.afrinic.net  
+- **LACNIC** (Latin America) – www.lacnic.net  
+- **ARIN** (North America) – www.arin.net  
+
+## Purpose
+
+Educational repository to demonstrate how basic network tools can be used to understand latency, routing paths, and ISP transitions across continents.
+
+© 2025 – Alana 
