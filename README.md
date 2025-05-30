@@ -12,3 +12,12 @@
 ## Como Rodar
 ### 1. Firmware
 Carregue o código `firmware/main.ino` no seu ESP32 ou Arduino usando o Arduino IDE.
+
+### 2. Scripts Python
+Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+Rode o script desejado:
+```bash
+python automation/device_controller.py
