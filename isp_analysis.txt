@@ -1,0 +1,21 @@
+# ISP Analysis – Hop 7 (AFRINIC Route)
+
+**Observation:**
+In the traceroute to `www.afrinic.net`, hop 7 is:
+afrinic-ix.jhb.isp.net [196.216.2.1]
+
+**Question:** Is `level3.net` the same ISP as hops 2–6, or is hop 7 a different ISP?
+
+**Analysis Using `whois`:**
+$ whois 196.216.2.1
+
+inetnum:        196.216.2.0 - 196.216.2.255
+netname:        AFRINIC-NET
+descr:          AFRINIC Ltd.
+country:        MU (Mauritius)
+status:         ASSIGNED PA
+
+**Conclusion:**
+- The IP at hop 7 belongs to **AFRINIC**, not **Level3.net**.
+- Therefore, hop 7 represents a different ISP (the destination network).
+- Hops 2–6 (Level3.net) serve as the transit ISP delivering packets from the source to AFRINIC.
