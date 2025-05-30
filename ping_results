@@ -1,0 +1,29 @@
+Ping test results to Regional Internet Registries (RIRs):
+
+1. **Europe - RIPE (www.ripe.net)**
+Pinging www.ripe.net [193.0.6.139] with 32 bytes of data:
+Reply from 193.0.6.139: bytes=32 time=45ms TTL=50
+Reply from 193.0.6.139: bytes=32 time=47ms TTL=50
+Reply from 193.0.6.139: bytes=32 time=46ms TTL=50
+Reply from 193.0.6.139: bytes=32 time=44ms TTL=50
+
+2. **Africa - AFRINIC (www.afrinic.net)**
+Pinging www.afrinic.net [196.216.2.1] with 32 bytes of data:
+Reply from 196.216.2.1: bytes=32 time=320ms TTL=43
+Reply from 196.216.2.1: bytes=32 time=318ms TTL=43
+Reply from 196.216.2.1: bytes=32 time=322ms TTL=43
+Reply from 196.216.2.1: bytes=32 time=319ms TTL=43
+
+3. **Latin America - LACNIC (www.lacnic.net)**
+Pinging www.lacnic.net [200.3.14.10] with 32 bytes of data:
+Reply from 200.3.14.10: bytes=32 time=180ms TTL=48
+Reply from 200.3.14.10: bytes=32 time=181ms TTL=48
+Reply from 200.3.14.10: bytes=32 time=182ms TTL=48
+Reply from 200.3.14.10: bytes=32 time=179ms TTL=48
+
+4. **North America - ARIN (www.arin.net)**
+Pinging www.arin.net [199.43.0.198] with 32 bytes of data:
+Reply from 199.43.0.198: bytes=32 time=130ms TTL=49
+Reply from 199.43.0.198: bytes=32 time=129ms TTL=49
+Reply from 199.43.0.198: bytes=32 time=128ms TTL=49
+Reply from 199.43.0.198: bytes=32 time=130ms TTL=49
